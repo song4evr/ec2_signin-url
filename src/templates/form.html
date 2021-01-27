@@ -1,0 +1,9 @@
+<form action="{{ url_for("proxy")}}" method="post"> 
+<label for="lastname">URL:</label> 
+<input type="text" id="url" name="url" placeholder="url" size=100 value={{url}}> 
+<button type="submit">Go</button> 
+<br>
+
+<pre>
+{{contents}}
+</pre>
